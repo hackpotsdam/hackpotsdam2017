@@ -2,6 +2,8 @@
 The homepage for a 24 hour held at semi-annually at SUNY Potsdam &amp; Clarkson University.
 
 ## Getting Started
+1. Clone the repo with `git clone https://github.com/PotsdamACM/hackpotsdam.git`
+2. Done!
 
 ## Developing Using Source Files
 
