@@ -624,13 +624,14 @@ section#contact .text-danger {
 }
 footer {
   padding: 25px 0;
-  text-align: center;
+  text-align: left;
 }
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  text-align: center !important;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
