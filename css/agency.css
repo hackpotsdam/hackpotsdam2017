@@ -771,3 +771,34 @@ body {
 .profile-picture {
   max-width: 200px;
 }
+
+.stock-image-laptop {
+  /*background-image: url('../img/stock-laptop.jpg');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/stock-laptop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+
+.stock-image-desk {
+  /*background-image: url('../img/stock-laptop.jpg');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/stock-desk.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
