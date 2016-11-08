@@ -201,6 +201,11 @@ fieldset[disabled] .btn-xl.active {
     max-height: 100% !important; 
 }
 
+/* Smaller padding on mobile */
+.nav>li>a {
+  padding: 10px 10px;
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -816,11 +821,6 @@ body {
   text-align: center;
 }
 
-/* Smaller padding on mobile */
-.nav>li>a {
-  padding: 10px 10px;
-}
-
 /* Carousel */
 
 #quote-carousel {
@@ -883,6 +883,13 @@ body {
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  #quote-carousel .carousel-indicators .active {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 
