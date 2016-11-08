@@ -770,6 +770,7 @@ body {
 
 .profile-picture {
   max-width: 200px;
+  margin: 0 auto;
 }
 
 .stock-image-laptop {
