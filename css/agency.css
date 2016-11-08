@@ -802,3 +802,7 @@ body {
   -o-background-size: cover;
   color: white;
 }
+
+.prizes {
+  text-align: center;
+}
