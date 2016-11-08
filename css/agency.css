@@ -767,3 +767,7 @@ body {
 .donate-button {
   margin-bottom: 30px;
 }
+
+.profile-picture {
+  max-width: 200px;
+}
