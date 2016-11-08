@@ -640,6 +640,10 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
+.no-bullet {
+  padding-left: 0;
+  list-style: none;
+}
 ul.social-buttons {
   margin-bottom: 0;
 }
