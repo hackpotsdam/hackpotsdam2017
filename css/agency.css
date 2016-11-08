@@ -179,7 +179,6 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 1px;
   color: white;
 }
 .navbar-custom .nav li a:hover,
@@ -214,6 +213,10 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
+  }
+  /* Smaller padding on mobile */
+  .nav>li>a {
+    padding: 15px 10px !important;
   }
 }
 @media (min-width: 768px) {
@@ -807,3 +810,9 @@ body {
 .prizes {
   text-align: center;
 }
+
+/* Smaller padding on mobile */
+.nav>li>a {
+  padding: 10px 10px;
+}
+
