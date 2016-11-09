@@ -641,11 +641,11 @@ footer {
   padding: 25px 0;
   text-align: left;
 }
-footer span.copyright {
-  line-height: 40px;
+footer div.copyright {
+  font-size: 12px;
+  line-height: 20px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-transform: none;
+  padding-top: 20px;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -896,4 +896,3 @@ body {
     width: 48px;
     height: 48px;
   }
-}
