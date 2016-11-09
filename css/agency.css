@@ -267,9 +267,9 @@ header .intro-text .intro-heading {
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 12px;
   line-height: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 header .intro-text .intro-lead-out {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -288,7 +288,7 @@ header .intro-text .intro-lead-out {
     font-style: italic;
     font-size: 20px;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -893,4 +893,9 @@ body {
   }
 }
 
-
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}

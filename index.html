@@ -102,6 +102,7 @@
                 <h1 class="intro-heading">Hack Potsdam</h1>
                 <h2>Hosted by SUNY Potsdam's ACM and Clarkon University's COSI</h2>
                 <div class="intro-lead-out">March 4th and 5th | Clarkson University</div>
+                <div class="intro-lead-in">I'm going to Hack Potsdam to <span class="intro-lead-in type-out typed-cursor"></span></div>
                 <a href="#services" class="page-scroll btn btn-xl">Learn About Spring Event <i class="fa fa-arrow-down"></i></a>
             </div>
         </div>
@@ -113,7 +114,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1 class="section-heading">What is Hack Potsdam?</h1>
-                    <h2 class="section-subheading text-muted">Hack Potsdam is a 24 hour student-run hackathon where a large number of people meet to engage in collaborative computer programming. People go to hacakthons to learn new technologies, meet new people, eat lots of pizza, build a product, change the world, join a team, lead a team, win prizes, or get hired.</h2>
+                    <h2 class="section-subheading text-muted">Hack Potsdam is a 24 hour student-run hackathon where a large number of people meet to engage in collaborative computer programming.</h2>
                 </div>
             </div>
             <div class="row text-center">
@@ -881,6 +882,9 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
+    <!-- typed.js for super cool typing animation -->
+    <script src="js/typed.js-master/js/typed.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -889,6 +893,16 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+
+    <script>
+    $(function(){
+      $(".type-out").typed({
+        strings: ["learn new technologies.", "meet new people.", "eat lots of pizza." , "build a product.", "change the world.", "join a team.", "lead a team.", "win prizes.", "get hired.", "have fun", "hear keynote speakers", "turn caffiene into code"],
+        typeSpeed: 25
+      });
+    });
+    </script>
+
 
 </body>
 
