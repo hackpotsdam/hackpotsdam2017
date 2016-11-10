@@ -1,5 +1,6 @@
 @import "variables.less";
 @import "mixins.less";
+// @import "fonts.less";
 
 // Global Components
 
@@ -179,23 +180,31 @@ header {
     .intro-text {
       padding-top: 100px;
       padding-bottom: 50px;
-        .intro-lead-in {
-            .serif-font;
-            // font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-style: italic;
-            font-size: 20px;
-            line-height: 40px;
-            margin-bottom: 60px;
-        }
-        .intro-heading {
-            .heading-font;
-            // font-family: "metropolis-Bold", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 50px;
-            line-height: 50px;
-            margin-bottom: 25px;
-        }
+      .intro-lead-in {
+          .serif-font;
+          // font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-style: italic;
+          font-size: 20px;
+          line-height: 40px;
+          margin-bottom: 60px;
+      }
+      .intro-lead-out {
+        .heading-font;
+        // font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 50px;
+        margin-bottom: 15px;
+      }
+      .intro-heading {
+          .heading-font;
+          // font-family: "metropolis-Bold", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 50px;
+          line-height: 50px;
+          margin-bottom: 25px;
+      }
     }
 }
 
@@ -210,6 +219,14 @@ header {
                 font-size: 20px;
                 line-height: 40px;
                 margin-bottom: 25px;
+            }
+            .intro-lead-out {
+              .heading-font;
+              // font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+              text-transform: uppercase;
+              font-size: 30px;
+              line-height: 50px;
+              margin-bottom: 25px;
             }
             .intro-heading {
                 .heading-font;
@@ -228,12 +245,21 @@ header {
 
 section {
     padding: 100px 0;
-    h2.section-heading {
+    h1.section-heading {
         font-size: 40px;
         margin-top: 0;
         margin-bottom: 15px;
     }
-    h3.section-subheading {
+    // h2.section-subheading {
+    //     font-size: 16px;
+    //     .serif-font
+    //     // font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    //     text-transform: none;
+    //     font-style: italic;
+    //     font-weight: 400;
+    //     margin-bottom: 75px;
+    // }
+    h2.section-subheading {
         font-size: 16px;
         .serif-font;
         text-transform: none;
@@ -247,6 +273,12 @@ section {
     section {
         padding: 150px 0;
     }
+}
+
+@media(max-width: 320px) {
+  .schedule-body > li > p {
+    font-size: 10px;
+  }
 }
 
 // Services Section
@@ -471,6 +503,8 @@ section {
 }
 
 @media(min-width:992px) {
+  .nav-size {
+    font-size: 8px;
     .timeline {
         > li {
             min-height: 150px;
@@ -495,6 +529,12 @@ section {
 }
 
 @media(min-width:1200px) {
+  .nav-size {
+    font-size: 12px;
+  }
+  .navbar-collapse.collapse {
+    /*display: none!important;*/
+  }
     .timeline {
         > li {
             min-height: 170px;
@@ -760,12 +800,12 @@ ul.social-buttons {
     list-style: none;
 }
 
-#owl-demo .item p{
-   text-align: center;
-}
-
-.quote {
-
+#owl-demo {
+  .item  {
+    p{
+      text-align: center;
+    }
+  }
 }
 
 .quote-name {
@@ -773,15 +813,8 @@ ul.social-buttons {
   font-weight: bold;
 }
 
-.quote-title {
 
-}
 
-@media(max-width: 320px) {
-  .schedule-body > li > p {
-    font-size: 10px;
-  }
-}
 
 // Highlight Color Customization
 
@@ -805,4 +838,5 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-primary;
+}
 }
