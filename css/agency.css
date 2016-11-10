@@ -933,6 +933,13 @@ body {
     margin-right: 10px;
 }
 
+/* TODO iPhone 4 view */
+@media(max-width: 320px) {
+  blockquote {
+ 
+  }
+}
+
 @media (max-width: 768px) {
   #quote-carousel .carousel-indicators li {
     width: 32px;
