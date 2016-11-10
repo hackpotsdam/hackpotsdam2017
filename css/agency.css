@@ -954,3 +954,11 @@ body {
     width: 48px;
     height: 48px;
   }
+}
+
+
+@media(max-width: 320px) {
+  .schedule-body > li > p {
+    font-size: 10px;
+  }
+}
