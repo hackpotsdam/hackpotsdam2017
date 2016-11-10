@@ -201,6 +201,10 @@ fieldset[disabled] .btn-xl.active {
     max-height: 100% !important; 
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin
+}
+
 /* Smaller padding on mobile */
 .nav>li>a {
   padding: 10px 10px;
@@ -342,6 +346,20 @@ section h2.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
+
+/* iPhone 4 view */
+@media(max-width: 320px) {
+  section h1.section-heading {
+    font-size: 30px;
+  }
+  header .intro-text .intro-lead-out {
+    font-size: 12px;
+  }
+  header .intro-text .intro-lead-in {
+    font-size: 10px;
+  }
+}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -845,9 +863,10 @@ body {
 
 @media (max-width: 768px) {
   .no-pad {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
+ 
 }
 
 /* Carousel */
