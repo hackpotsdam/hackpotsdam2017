@@ -985,41 +985,18 @@
     <script src="js/agency.min.js"></script>
 
     <script>
-    $(function(){
-      $(".type-out").typed({
-        strings: ["learn new technologies", "meet new people", "eat lots of pizza" , "build a product", "change the world", "join a team", "lead a team", "win prizes", "get hired", "have fun", "hear keynote speakers", "turn caffeine into code"],
-        typeSpeed: 25,
-        backDelay: 750, // pause before backspacing
-        loop: true, // loop on or off (true or false)
-        loopCount: false, // number of loops, false = infinite
-        shuffle: true,
-        callback: function(){ } // call function after typing is done
-
-      });
-    });
+        $(function(){
+          $(".type-out").typed({
+            strings: ["learn new technologies", "meet new people", "eat lots of pizza" , "build a project", "change the world", "join a team", "lead a team", "win prizes", "get hired", "have fun", "hear speakers", "turn caffeine into code", "solve problems", "harness open data", "build a web app" , "work with robots" ,"help the community"],
+            typeSpeed: 25,
+            backDelay: 750, // pause before backspacing
+            loop: true, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            shuffle: true,
+            callback: function(){ } // call function after typing is done
+          });
+        });
     </script>
-
-    <script>
-        function shuffle(array) {
-          var currentIndex = array.length, temporaryValue, randomIndex;
-
-          // While there remain elements to shuffle...
-          while (0 !== currentIndex) {
-
-            // Pick a remaining element...
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
-
-            // And swap it with the current element.
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-          }
-
-          return array;
-        }
-    </script>
-
 
 </body>
 
