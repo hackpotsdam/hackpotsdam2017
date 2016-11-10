@@ -883,3 +883,15 @@ body {
    text-align: center;
 }
 
+.quote {
+
+}
+
+.quote-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quote-title {
+
+}
