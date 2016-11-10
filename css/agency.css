@@ -842,6 +842,14 @@ body {
   text-align: center;
 }
 
+
+@media (max-width: 768px) {
+  .no-pad {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 /* Carousel */
 
 #quote-carousel {
@@ -861,10 +869,10 @@ body {
     margin-top: 30px;
 }
 #quote-carousel .carousel-control.left {
-    left: -60px;
+    left: 0px;
 }
 #quote-carousel .carousel-control.right {
-    right: -60px;
+    right: 0px;
 }
 #quote-carousel .carousel-indicators {
     right: 50%;
