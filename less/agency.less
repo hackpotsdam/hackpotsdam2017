@@ -2,6 +2,10 @@
 @import "mixins.less"; // @import "fonts.less";
 // Global Components
 
+html {
+  overflow-x: hidden;
+}
+
 body {
     overflow-x: hidden;
     .body-font;
@@ -108,6 +112,7 @@ h6 {
         .heading-font;
         color: white;
         font-size: 12px;
+
 
         &:focus,
         &:hover {
@@ -264,15 +269,6 @@ section {
         margin-top: 0;
         margin-bottom: 15px;
     }
-    // h2.section-subheading {
-    //     font-size: 16px;
-    //     .serif-font
-    //     // font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    //     text-transform: none;
-    //     font-style: italic;
-    //     font-weight: 400;
-    //     margin-bottom: 75px;
-    // }
     h2.section-subheading {
         font-size: 16px;
         .serif-font;
@@ -288,6 +284,9 @@ section {
     }
 }
 @media(max-width: 320px) {
+    section h1.section-heading {
+      font-size: 30px;
+    }
     .schedule-body > li > p {
         font-size: 10px;
     }
@@ -497,7 +496,7 @@ section {
         }
     }
 }
-@media(min-width:768px) {
+@media(max-width:768px) {
     .no-pad {
         padding-left: 0 !important;
         padding-right: 0 !important;
