@@ -5,7 +5,7 @@ The homepage for a 24 hour held at semi-annually at SUNY Potsdam &amp; Clarkson 
 1. Clone the repo with `git clone https://github.com/PotsdamACM/hackpotsdam.git`
 2. Done!
 
-## Developing Using Source Files
+## Developing Using Source Files (optional, you don't have to do this)
 
 To use the source files, you will need to have npm installed globally along with Gulp.js. To start:
 * Run `npm install` in the root directory
