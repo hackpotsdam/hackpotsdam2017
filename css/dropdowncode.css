@@ -1,0 +1,48 @@
+      <!--            <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-style">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                        </ul>
+                    </li>   -->  
+
+
+/* Dropdown appears properly on deskop */
+// @media only screen and (max-width:480px){
+//     .dropdown-menu{
+//         display: block;
+//         position: static;
+//         background-color:transparent;
+//         border:0 none;
+//         box-shadow:none;
+//         margin-top:0;
+//         position:static;
+//         width:100%;
+//     }
+
+//     // .navbar-nav .dropdown-menu > li > a, 
+//     // .navbar-nav .dropdown-menu .dropdown-header {
+//     //     padding:5px 15px 5px 25px;
+//     // }
+//     // .navbar-nav .dropdown-menu > li > a{
+//     //     line-height:20px;
+//     // }
+//     .navbar-custom .nav .dropdown-style li a {    
+//         color: white;
+//     }
+// }
+
+// /* Allows scroll on mobile */
+// .wrapper {
+//   overflow-y: scroll;
+//   -webkit-overflow-scrolling:touch;
+//   height: 400px;
+//   max-height: 400px;
+// }
+
+/* Additional style for the dropdown menu on desktop to make the font color black */
+// .navbar-custom .nav .dropdown-style li a {
+//   color: black;
+//   outline: none;
+// }

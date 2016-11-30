@@ -4,39 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-/* Dropdown appears properly on deskop */
-// @media only screen and (max-width:480px){
-//     .dropdown-menu{
-//         display: block;
-//         position: static;
-//         background-color:transparent;
-//         border:0 none;
-//         box-shadow:none;
-//         margin-top:0;
-//         position:static;
-//         width:100%;
-//     }
-
-//     // .navbar-nav .dropdown-menu > li > a, 
-//     // .navbar-nav .dropdown-menu .dropdown-header {
-//     //     padding:5px 15px 5px 25px;
-//     // }
-//     // .navbar-nav .dropdown-menu > li > a{
-//     //     line-height:20px;
-//     // }
-//     .navbar-custom .nav .dropdown-style li a {    
-//         color: white;
-//     }
-// }
-
-// /* Allows scroll on mobile */
-// .wrapper {
-//   overflow-y: scroll;
-//   -webkit-overflow-scrolling:touch;
-//   height: 400px;
-//   max-height: 400px;
-// }
-
 html {
   overflow-x: hidden;
  }
@@ -224,12 +191,6 @@ fieldset[disabled] .btn-xl.active {
   outline: none;
 }
 
-/* Additional style for the dropdown menu on desktop to make the font color black */
-// .navbar-custom .nav .dropdown-style li a {
-//   color: black;
-//   outline: none;
-// }
-
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
@@ -248,32 +209,6 @@ fieldset[disabled] .btn-xl.active {
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
   margin
 }
-
-// Commented this out, dont need anymore
-// /* Smaller padding on mobile */
-// .nav>li>a {
-//   padding: 10px 10px;
-// }
-
-// @media (max-width: 1200px) {
-//   .nav-size {
-//     font-size: 12px;
-//   }
-
-//   .navbar-collapse.collapse {
-//       display: none!important;
-//   } 
-// }
-
-// @media (max-width: 992px) {
-//   .nav-size {
-//     font-size: 8px;
-//   }
-
-//   .navbar-collapse.collapse {
-//       /*display: none!important;*/
-//   } 
-// }
 
 @media (min-width: 768px) {
   .navbar-custom {
