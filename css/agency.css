@@ -817,6 +817,19 @@ body {
   -o-background-size: cover;
 }
 
+.stock-image-coffee {
+  /*background-image: url('../img/stock-laptop.jpg');*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/stock-coffee.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
+
 .text-white {
   color: white;
 }
