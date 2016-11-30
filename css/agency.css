@@ -209,30 +209,31 @@ fieldset[disabled] .btn-xl.active {
   margin
 }
 
-/* Smaller padding on mobile */
-.nav>li>a {
-  padding: 10px 10px;
-}
+// Commented this out, dont need anymore
+// /* Smaller padding on mobile */
+// .nav>li>a {
+//   padding: 10px 10px;
+// }
 
-@media (max-width: 1200px) {
-  .nav-size {
-    font-size: 12px;
-  }
+// @media (max-width: 1200px) {
+//   .nav-size {
+//     font-size: 12px;
+//   }
 
-  .navbar-collapse.collapse {
-      /*display: none!important;*/
-  } 
-}
+//   .navbar-collapse.collapse {
+//       display: none!important;
+//   } 
+// }
 
-@media (max-width: 992px) {
-  .nav-size {
-    font-size: 8px;
-  }
+// @media (max-width: 992px) {
+//   .nav-size {
+//     font-size: 8px;
+//   }
 
-  .navbar-collapse.collapse {
-      /*display: none!important;*/
-  } 
-}
+//   .navbar-collapse.collapse {
+//       /*display: none!important;*/
+//   } 
+// }
 
 @media (min-width: 768px) {
   .navbar-custom {
