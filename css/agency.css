@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.judge-button {
+  margin-top: 15px !important;
+}
+
 .text-muted {
   color: #777777;
 }
@@ -676,7 +681,7 @@ footer ul.quicklinks {
   list-style: none;
 }
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 ul.social-buttons li a {
   display: block;
