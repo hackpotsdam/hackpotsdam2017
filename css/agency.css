@@ -4,6 +4,41 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+.badge-brand-logo {
+  display:block;
+  max-width:100px;
+  min-width:60px;
+  position:fixed;
+  left:200px;
+  top:10px;
+  width:10%;
+  z-index:10000;
+}
+
+@media (max-width: 768px) {
+  .badge-brand-logo {
+    left: 30px;
+  }
+}
+
+@media(max-width: 320px) {
+  .badge-brand-logo {
+    left: 10px;
+  }
+}
+
+.badge-brand-mlh {
+  display:block;
+  max-width:100px;
+  min-width:60px;
+  position:fixed;
+  right:120px;
+  top:0;
+  width:10%;
+  z-index:10000;
+}
+
+
 html {
   overflow-x: hidden;
  }
