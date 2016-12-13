@@ -891,6 +891,10 @@ body {
   text-align: center;
 }
 
+.prize-box {
+  padding: 0px;
+  margin: 30px;
+}
 
 @media (max-width: 768px) {
   .no-pad {
