@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="402.63681"
+   height="661.26923"
+   id="svg4002"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="hackPotsdam.svg"
+   inkscape:export-filename="/home/matthew/Documents/ACM/hackpotsdam2.png"
+   inkscape:export-xdpi="169.9381"
+   inkscape:export-ydpi="169.9381">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="464.46533"
+     inkscape:cy="364.58101"
+     inkscape:current-layer="g4652"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="-7"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="-8.0381371,115.16459"
+       id="guide4543" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="204.95325,333.92252"
+       id="guide4558" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="139.819,478.02173"
+       id="guide4560" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="274.1487,352.61034"
+       id="guide4562" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4584"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-163.75243px"
+       originy="-210.5497px" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-683.75243,650.87887"
+       id="guide4656" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-698.03814,270.87887"
+       id="guide4658" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="wire"
+     sodipodi:insensitive="true"
+     style="display:none"
+     transform="translate(-163.75243,-180.54327)">
+    <path
+       style="fill:none;stroke:#333333;stroke-width:10.92047215;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 368.70568,503.88996 0,62.52085 c 300,-10 203.90025,-436.96466 0,-439.26066 -202.34815,-2.27853 -289.068129,421.14618 0,456.5473 0,0 98.99495,-17.49917 69.19545,5.22926 0,0 -134.3297,1.05626 -134.3297,14.81679 0,18.52883 134.3297,9.3557 134.3297,23.64141 0,12.85714 -134.3297,3.97681 -134.3297,19.69109 0,20 134.3297,-3.42097 134.3297,19.30746 0,20.20305 -134.3297,-1.07143 -134.3297,25.19254 0,22.72843 65.13425,26.97825 65.13425,0.71428 0,0 0,-76.97174 0,-188.40032 z"
+       id="path4556"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccscccccc" />
+  </g>
+  <g
+     inkscape:label="wire copy"
+     id="g4652"
+     inkscape:groupmode="layer"
+     transform="translate(-163.75243,-180.54327)">
+    <path
+       sodipodi:nodetypes="ccsssccscccccc"
+       inkscape:connector-curvature="0"
+       id="path4654"
+       d="m 356.70568,629.88996 0.96954,72.62238 C 520.53236,696.93361 438.72278,725.34552 529.95399,519.89148 620.07677,316.93361 498.6558,187.15529 356.70568,186.00729 255.52849,185.18904 100.79135,317.05822 202.42457,521.57965 c 87.10086,175.27726 14.70439,175.35396 153.84239,181.81178 0,0 96.40321,-0.0815 66.60371,22.64696 0,0 -131.29924,-10.05542 -131.29924,3.70511 0,18.52883 134.3297,9.3557 134.3297,23.64141 0,12.85714 -134.3297,3.97681 -134.3297,19.69109 0,20 134.3297,-3.42097 134.3297,19.30746 0,20.20305 -134.3297,-1.07143 -134.3297,25.19254 0,22.72843 65.13425,26.97825 65.13425,0.71428 0,0 0,-76.97174 0,-188.40032 z"
+       style="fill:none;stroke:#333333;stroke-width:10.92047215;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+  <g
+     inkscape:label="mouse"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-163.75243,-180.54327)">
+    <path
+       style="fill:#a7c6da;fill-opacity:1;fill-rule:nonzero;stroke:#586994;stroke-width:10.66535473;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 432.16866,393.17818 -146.46913,-1.23083 -1.23083,182.16328 c 0,65.84956 148.31537,65.84956 148.31537,-0.61542 z"
+       id="path4541"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#333333;stroke-width:3.53535986;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 356.70568,586.50408 0,31.59129 z"
+       id="path4564-6"
+       inkscape:connector-curvature="0" />
+    <g
+       transform="translate(-12.005078,126.47355)"
+       style="display:inline"
+       id="g4586">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4564"
+         d="m 368.93365,416.53149 0,37.14286 z"
+         style="fill:none;stroke:#222a68;stroke-width:14.46377945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Type"
+     style="display:none"
+     sodipodi:insensitive="true"
+     transform="translate(-163.75243,-180.54327)">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Metropolis;-inkscape-font-specification:Metropolis"
+       x="103.00583"
+       y="812.60938"
+       id="text4611"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4613"
+         x="103.00583"
+         y="812.60938"
+         style="font-size:72px;font-weight:bold;fill:#333333;fill-opacity:1;-inkscape-font-specification:Metropolis Bold">H@ck Potsdam</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Metropolis;-inkscape-font-specification:Metropolis"
+       x="103.49093"
+       y="868.26208"
+       id="text4615"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4617"
+         x="103.49093"
+         y="868.26208">Where Creative Minds Collab.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Metropolis;-inkscape-font-specification:Metropolis"
+       x="209.08128"
+       y="939.38751"
+       id="text4619"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/matthew/Documents/ACM/hackPotsdam.png"><tspan
+         sodipodi:role="line"
+         id="tspan4621"
+         x="209.08128"
+         y="939.38751"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato">March 4th &amp; 5th, 2017</tspan></text>
+  </g>
+</svg>
