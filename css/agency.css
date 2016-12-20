@@ -13,6 +13,11 @@
  //  margin: auto;
  // }
 
+
+.donator-heading {
+  padding-top: 25px;
+ }
+
 .supporter-amount {
   font-weight: bold;
   font-size: 26px;
