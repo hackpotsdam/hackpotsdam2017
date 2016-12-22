@@ -13,6 +13,9 @@
  //  margin: auto;
  // }
 
+.company-sponsors {
+  text-align: center;
+}
 
 .donator-heading {
   padding-top: 25px;
