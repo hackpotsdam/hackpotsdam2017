@@ -44,6 +44,7 @@
   padding: 0;
  }
 
+/*
 .badge-brand-logo {
   display:block;
   max-width:100px;
@@ -54,6 +55,7 @@
   width:10%;
   z-index:10000;
 }
+*/
 
 .shadowfilter {
   -webkit-filter: drop-shadow(0px 0px 0px rgba(88,134,148,1));
@@ -65,6 +67,7 @@
   -webkit-filter: drop-shadow(0px 0px 8px rgba(88,134,148, 1));
 }
 
+/*
 @media (max-width: 768px) {
   .badge-brand-logo {
     left: 30px;
@@ -76,17 +79,20 @@
     left: 10px;
   }
 }
+*/
 
+/*
 .badge-brand-mlh {
   display:block;
   max-width:100px;
   min-width:60px;
   position:fixed;
-  right:120px;
+  left: 30px;
   top:0;
   width:10%;
   z-index:10000;
 }
+*/
 
 
 html {
