@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+/*
  // .signup-pinned {
  //  position:fixed;
  //  bottom:5px;
@@ -12,6 +13,14 @@
  //  z-index:10000;
  //  margin: auto;
  // }
+*/
+
+.v-center {
+  	float:none !important;
+    display:inline-block !important;
+    vertical-align:middle !important;
+    margin-right:-4px !important;
+  }
 
 .company-sponsors {
   text-align: center;
