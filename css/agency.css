@@ -976,7 +976,14 @@ body {
 
 .prize-box {
   padding: 10px;
-  margin: 30px;
+  margin: 20px 10px;
+}
+
+@media (max-width: 768px) {
+    .prize-box {
+        padding: 10px;
+         margin: 20px 30px;
+    } 
 }
 
 @media (max-width: 768px) {
