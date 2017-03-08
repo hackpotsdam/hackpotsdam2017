@@ -15,6 +15,14 @@
  // }
 */
 
+.highlight-heading {
+    font-size: 102px;
+}
+
+.highlight-body {
+    font-size: 26px;
+}
+
 .acm-logo {
     height: 300px;
 }
